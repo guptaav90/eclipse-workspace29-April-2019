@@ -11,7 +11,7 @@ public class FibonacciSeries {
 		
 		for(int i=0;i<=5;i++) {
 			
-			System.out.println(a);
+			System.out.println(A);
 			
 			a=a+b;
 			b=a-b;
