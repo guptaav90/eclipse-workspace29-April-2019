@@ -8,7 +8,7 @@ public class String_Vs_StringBuffer_EqualsMethod {
 		String str1=new String("Selenium");
 		String str2=new String("Selenium");
 		
-		System.out.println(str1.equals(str1));//true
+		System.out.println(str1.equals(str2));//true
 		
 		if (str1.equals(str2)) {
 			
@@ -74,7 +74,7 @@ public class String_Vs_StringBuffer_EqualsMethod {
 		
 		
 		String s10="abc";
-		String s11="abc";
+		String s11="abc";//scp and refference of object reffering the existing object
 		System.out.println(s10==s11);//true
 
 		String s12="abc";

@@ -21,6 +21,7 @@ public class TestNG_GroupsKeyword {
 		  driver.manage().deleteAllCookies();
 		  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		  driver.get("https://www.crmpro.com");
+		 // WebDriverManager.chromedriver().setup();
 		  
 		  driver.findElement(By.name("username")).sendKeys("guptaav90");
 		  driver.findElement(By.name("password")).sendKeys("cspl@2020");

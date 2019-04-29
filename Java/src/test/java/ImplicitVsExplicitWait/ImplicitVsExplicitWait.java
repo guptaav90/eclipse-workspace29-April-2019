@@ -2,6 +2,7 @@ package ImplicitVsExplicitWait;
 
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedCondition;
@@ -28,8 +29,10 @@ public class ImplicitVsExplicitWait {
 	  boolean displayed= webelement.isDisplayed();
 	  System.out.println(displayed);
 	  */
+	
+	wait.until(ExpectedConditions.invisibilityOf(driver.findElement(By.xpath("//a[text()='Sign in']"))));
 	  
-	  
+	
 	  
 	  
 	  

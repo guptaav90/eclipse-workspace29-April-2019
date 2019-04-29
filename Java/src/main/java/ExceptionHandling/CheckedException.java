@@ -15,7 +15,7 @@ public class CheckedException {
 		Thread.sleep(1000);
 		System.out.println("***");
 	     }
-		
+	
 		catch (InterruptedException e) {
 			
 		  e.printStackTrace();
@@ -29,6 +29,7 @@ public class CheckedException {
 		Properties prop =new Properties();
 		FileInputStream fis = new FileInputStream("C:\\Users\\gupta.av\\eclipse-workspace\\Java\\Fileee.properties");
 		 prop.load(fis);
+		 System.out.println("------------");
 		
 	} catch (IOException e) {
 		

@@ -9,8 +9,6 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
-
 public class TestNG_ParametersAnnotation {
 	
 	WebDriver driver;

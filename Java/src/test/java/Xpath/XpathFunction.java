@@ -22,7 +22,7 @@ public class XpathFunction {
 		driver.findElement(By.xpath("//span[@class='icon icon-xs mdi-chart-bar']")).click();
 		*/
 		//Contains
-		driver.findElement(By.xpath("//input[contains(text(),'Login')]")).click();
+		driver.findElement(By.xpath("//input[contains(text(),'Logi')]")).click();
 		
 		//text
 		//driver.findElement(By.xpath("//a[text()='Forgot your password?']")).click();

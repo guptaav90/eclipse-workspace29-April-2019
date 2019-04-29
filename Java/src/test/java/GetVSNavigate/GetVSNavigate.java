@@ -16,7 +16,7 @@ public class GetVSNavigate {
 	  driver.manage().window().maximize();
 	  driver.manage().deleteAllCookies();
 	  driver.get("http://toolsqa.com/handling-alerts-using-selenium-webdriver/");
-	  
+	
 	  Thread.sleep(5000);
 	  driver.navigate().to("http://testingpool.com");
 	  Thread.sleep(5000);

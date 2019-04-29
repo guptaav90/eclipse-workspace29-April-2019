@@ -47,7 +47,7 @@ public class MethodOverriddingB extends MethodOverriddingA {
 		//here if you create object of that class then you can access of that class method.
 		
 		//MethodOverriddingB b=MethodOverriddingA(); //down casting, child class reference variable cannot hold parent class object.
-		MethodOverriddingB b=(MethodOverriddingB)new MethodOverriddingA();//*ClassCastException*
+		MethodOverriddingB b=(MethodOverriddingB) new MethodOverriddingA();//*ClassCastException*
 		b.speed();
 		b.theftsafety();
 		b.start();

@@ -17,6 +17,7 @@ public class UncheckedException {
          catch(ArithmeticException ae)
          {
         	 ae.printStackTrace();
+        	 System.out.println("%%%%%%%%%");
          }
          
          System.out.println("***");

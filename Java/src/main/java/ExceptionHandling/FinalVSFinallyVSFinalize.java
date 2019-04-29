@@ -21,6 +21,7 @@ public class FinalVSFinallyVSFinalize {
 		
 		try{  
 			int x=9/0;  
+			System.out.println("------------");
 			}
 		
 		 
@@ -31,6 +32,8 @@ public class FinalVSFinallyVSFinalize {
 
 	           
 		System.out.println("***");
+		
+		
 		
 	
 	}
